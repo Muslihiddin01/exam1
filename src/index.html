@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test1</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.css">
+</head>
+<body class="max-w-[1300px] m-auto p-5">
+
+     <header>
+        <nav class="flex justify-between items-center">
+            <img src="./img/Logo.svg" alt="">
+            <i class="fa-solid fa-chevron-down lg:hidden text-2xl"></i>
+            <article class="lg:flex items-start hidden gap-[100px]">
+                <div class="border-r-2 pr-5">
+                    <p>ВРЕМЯ РАБОТЫ</p>
+                    <h3 class="font-bold">Пн-Вс 9:00-21:00</h3>
+                </div>
+                <div class="border-r-2 pr-5">
+                    <p>EMAIL</p>
+                    <h3 class="font-bold">info@it-komfort.ru</h3>
+
+                </div>
+                <div class="border-r-2 pr-5">
+                    <p>МЕССЕНДЖЕРЫ</p>
+                    <h3 class="font-bold">+79128810296</h3>
+
+                </div>
+                <div>
+                    <p>ТЕЛЕФОН</p>
+                    <h3 class="font-bold">+7(342)243-02-96</h3>
+
+                </div>
+            </article>
+        </nav>
+
+        <section class="flex flex-col lg:flex-row justify-between items-center my-[70px]">
+            <aside class="flex flex-col lg:w-[35%] gap-5">
+                <h1 class="text-2xl lg:text-5xl font-bold">Поможем
+                    навести порядок
+                    в компании</h1>
+                    <p>Внедрение CRM за 2 недели.
+                        Работаем по всей России.</p>
+                        <div class="flex flex-col lg:flex-row gap-5">
+                            <input type="text" placeholder="Название компании" class="p-2 border border-black rounded-sm">
+                            <input type="text" placeholder="Телефон*" class="p-2 border border-black rounded-sm">
+                            </div>
+                            <button class="p-2 bg-[#3D68E1] text-white rounded-sm">ЗАКАЗАТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ</button>
+                            <p class="text-center">Мы никогда не передаём Ваши данные третьим лицам</p>
+            </aside>
+            <img src="./img/image 15.svg" class="hidden lg:block" alt="">
+        </section>
+     </header>
+
+</body>
+</html>
+
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
